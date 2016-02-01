@@ -29,7 +29,6 @@ else {
 			<?php if( !empty($options['enable-footer-social-area']) && $options['enable-footer-social-area'] == 1) { ?>
             
             <div class="col-md-6">
-                <p class="copyright">&copy; <?php _e('Copyright ', AZ_THEME_NAME); echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> / <?php _e('Powered by', AZ_THEME_NAME) ?> <a href="http://wordpress.org/" target="_blank">WordPress</a></p>
                 <?php if(!empty($options['footer-copyright-text'])) { ?> <p class="credits"><?php echo $options['footer-copyright-text']; ?></p> <?php } ?>
             </div>
             
@@ -54,7 +53,7 @@ else {
             <?php } else { ?>
             
             <div class="col-md-12">
-                <p class="copyright">&copy; <?php _e('Copyright ', AZ_THEME_NAME); echo date( 'Y' ); ?> <a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a> / <?php _e('Powered by', AZ_THEME_NAME) ?> <a href="http://wordpress.org/" target="_blank">WordPress</a></p>
+                
                 <?php if(!empty($options['footer-copyright-text'])) { ?><p class="credits"><?php echo $options['footer-copyright-text']; ?></p> <?php } ?>
             </div>
     
